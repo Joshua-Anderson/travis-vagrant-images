@@ -1,0 +1,8 @@
+language: objective-c
+
+install: install/virtualbox.sh
+
+before_script: ls downloads
+
+script: true
+
