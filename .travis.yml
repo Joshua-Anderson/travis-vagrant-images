@@ -5,8 +5,8 @@ install:
   - "install/vagrant.sh"
 
 before_script: 
-  - "echo VirtualBox Version: $(vboxmanage --version)"
-  - "echo Vagrant Version: $(vagrant --version)"
+  - "vboxmanage --version"
+  - "vagrant --version"
 
 script: true
 
