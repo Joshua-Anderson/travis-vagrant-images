@@ -6,7 +6,7 @@ install:
 
 before_script: 
   - "echo VirtualBox Version: $(vboxmanage --version)"
-  - "ls /Volumes/Vagrant"
+  - "echo Vagrant Version: $(vagrant --version)"
 
 script: true
 
